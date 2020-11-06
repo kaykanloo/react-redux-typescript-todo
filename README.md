@@ -1,5 +1,7 @@
 # A Simple Todo Web App Based on React, Redux, and TypeScript
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template:
+
+`npx create-react-app react-redux-typescript-todo --template redux-typescript`
 
 ## Available Scripts
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './Header.module.css';
 
-export function Header() {
+export const Header = () => {
     return (
         <header className={styles.header}>
             <h1>KayKanDo.js</h1>

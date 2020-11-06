@@ -14,7 +14,9 @@ export interface Todo {
   completed?: boolean
 }
 
-const todosAdapter = createEntityAdapter<Todo>();
+const todosAdapter = createEntityAdapter<Todo>({
+  selectId: (todo) => todo.id as string,
+});
 
 const initialState = todosAdapter.getInitialState({
   status: "idle" as string,

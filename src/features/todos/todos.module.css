@@ -1,0 +1,73 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.label {
+  flex: 8;
+  font-size: calc(10px + 2vmin);
+  padding: 2px;
+  text-align: left;
+  margin: 8px;
+}
+
+.textbox {
+  flex: 8;
+  font-size: calc(10px + 2vmin);
+  padding: 2px;
+  text-align: left;
+  margin: 8px;
+}
+
+.addButton {
+  flex: 2;
+  appearance: none;
+  background: none;
+  font-size: calc(10px + 2vmin);
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  color: rgb(112, 76, 182);
+  padding-bottom: 4px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.addButton:hover, .button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.addButton:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
+.removeButton {
+  flex: 2;
+  appearance: none;
+  background: none;
+  font-size: calc(10px + 2vmin);
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  color: #CA4AA5;
+  padding-bottom: 4px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: rgba(255, 95, 135, 0.1);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.removeButton:hover, .button:focus {
+  border: 2px solid rgba(255, 95, 135, 0.4);
+}
+
+.removeButton:active {
+  background-color: rgba(255, 95, 135, 0.2);
+}

@@ -1,0 +1,16 @@
+.header {
+    color: white;
+    background-color: blueviolet;
+    min-height: 10vh;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+.noTopMargin {
+  margin-top: 0px;
+}
+  
